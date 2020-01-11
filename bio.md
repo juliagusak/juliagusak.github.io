@@ -1,5 +1,5 @@
 ---
-layout: bio
+layout: default
 title:  "Bio"
 permalink:  /bio/
 
