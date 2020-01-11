@@ -54,7 +54,7 @@ quiet               : false
 verbose             : false
 defaults            : []
 
-title: My site
+title               : My site
 
 liquid:
   error_mode        : warn
