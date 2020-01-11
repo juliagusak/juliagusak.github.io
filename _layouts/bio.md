@@ -1,6 +1,9 @@
+---
 layout: bio
-title: "Bio"
-permalink: /bio/
+title:  "Bio"
+permalink:  /bio/
+
+---
 
 - School
 - University
