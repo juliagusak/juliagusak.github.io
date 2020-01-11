@@ -1,7 +1,4 @@
----
-title:  "My site"
-
----
+## My site
 
 Hello world!
 
