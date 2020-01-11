@@ -1,6 +1,6 @@
 ---
 layout: default
-title: My site
+title: "My site"
 
 ---
 
