@@ -54,8 +54,6 @@ quiet               : false
 verbose             : false
 defaults            : []
 
-title               : My site
-
 liquid:
   error_mode        : warn
   strict_filters    : false
