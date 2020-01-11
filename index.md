@@ -1,4 +1,7 @@
-## My site
+---
+layout: default
+
+---
 
 Hello world!
 
