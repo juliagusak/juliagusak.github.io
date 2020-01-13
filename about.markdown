@@ -166,7 +166,7 @@ does_not_need_title: true
     <div class="col col-sm-9 vcenter" style="margin-right: -4px; text-align: justify;">
         <p class="title">Per-Coordinate FTRL-Proximal with L1 and L2 Regularization for Logistic Regression</p>
         <p class="description">
-         C++ implementation of the online optimization algorithm for logistic regression training, described in the following<a href="http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/41159.pdf">paper.</a> 
+         C++ implementation of the online optimization algorithm for logistic regression training, described in the following <a href="http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/41159.pdf">paper.</a> 
         </p>
         <div class="links">
             <a href="https://github.com/juliagusak/ftrl-proximal">Code</a>
