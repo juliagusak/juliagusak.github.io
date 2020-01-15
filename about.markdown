@@ -32,7 +32,7 @@ does_not_need_title: true
         <i class="svg-icon linkedin"></i>
     </a>
     <a class="hovernounderline" href="https://scholar.google.com/citations?hl=en&user={{ site.footer-links.googlescholar }}">
-        <i class="svg-icon googleplus"></i>
+        <i class="svg-icon googlescholar"></i>
     </a>
 </center>
 </div>
