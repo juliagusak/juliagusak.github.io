@@ -22,17 +22,17 @@ does_not_need_title: true
     <a class="hovernounderline" href="https://docs.google.com/document/d/1ykxd4l7kpEF0gWiyk-msFoLbVSlY-mBO2yond_nfWto/edit?usp=sharing">
         <i class="svg-icon cv"></i>
     </a>
-    <a class="hovernounderline" href="https://www.twitter.com/{{ site.footer-links.twitter }}">
-        <i class="svg-icon twitter"></i>
-    </a>
     <a class="hovernounderline" href="https://github.com/{{ site.footer-links.github }}">
         <i class="svg-icon github"></i>
+    </a>
+    <a class="hovernounderline" href="https://scholar.google.com/citations?hl=en&user={{ site.footer-links.googlescholar }}">
+        <i class="svg-icon googlescholar"></i>
     </a>
     <a class="hovernounderline" href="https://www.linkedin.com/in/{{ site.footer-links.linkedin }}">
         <i class="svg-icon linkedin"></i>
     </a>
-    <a class="hovernounderline" href="https://scholar.google.com/citations?hl=en&user={{ site.footer-links.googlescholar }}">
-        <i class="svg-icon googlescholar"></i>
+    <a class="hovernounderline" href="https://www.twitter.com/{{ site.footer-links.twitter }}">
+        <i class="svg-icon twitter"></i>
     </a>
 </center>
 </div>
