@@ -13,7 +13,7 @@ does_not_need_title: true
 
 - My recent research deals with compression and acceleration of computer vision models (classification/object detection/segmentation),  as well as neural networks analysis using low-rank methods, such as tensor decompositions and active subspaces.  Also, I have some audio-related activity,  particularly, I participate in the project on speech synthesis and voice conversion. Some of my earlier projects were related to medical data processing (EEG, ECG)  and included human disease detection, artifact removal, and weariness detection.
 
-- Research interests: deep learning (DL), interpretability of DL, computer vision, speech technologies, multi-task learning, semi-supervised/unsupervised learning, transfer learning, domain adaptation, tensor decompositions for DL.
+- Research interests: deep learning (DL), interpretability of DL, computer vision, speech technologies, multi-task learning, semi-supervised/unsupervised learning, transfer learning, domain adaptation, hyper networks, tensor decompositions for DL.
 
 
 <br/>
