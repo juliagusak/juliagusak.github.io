@@ -7,9 +7,9 @@ does_not_need_title: true
 ---
 <h1 style="margin:0px; font-size: 36px">About</h1>
 
-- Currently, I am a researcher at <a href="https://www.skoltech.ru/en">Skoltech</a> in <a href="http://www.deeptensor.ml/team.html">Tensor networks and deep learning for applications in data mining</a> laboratory, where I closely collaborate with <a href="https://scholar.google.com/citations?user=5kMqBQEAAAAJ&hl=en">Prof. Ivan Oseledets</a> and <a href="https://scholar.google.com/citations?user=wpZDx1cAAAAJ&hl=en">Prof. Andrzej Cichocki</a>.
+- Currently, I am a Machine Learning researcher at <a href="https://www.skoltech.ru/en">Skoltech</a> at <a href="http://www.deeptensor.ml/team.html">Tensor networks and deep learning for applications in data mining</a> laboratory, where I work with <a href="https://scholar.google.com/citations?user=5kMqBQEAAAAJ&hl=en">Prof. Ivan Oseledets</a> and <a href="https://scholar.google.com/citations?user=wpZDx1cAAAAJ&hl=en">Prof. Andrzej Cichocki</a>.
 
-- I received my Master’s degree in Mathematics and Ph.D. in Probability Theory and Statistics from <a href="https://www.msu.ru/en/">Lomonosov Moscow State University</a>. Also, I've completed a Master's-level programm in Computer Science and Data Analysis from the <a href="https://yandexdataschool.com/">Yandex School of data analysis</a>.
+- I received my Ph.D. in Probability Theory and Statistics from <a href="https://www.msu.ru/en/">Lomonosov Moscow State University</a>, and in parallel, I've completed a Master's-level programm in Computer Science and Data Analysis from the <a href="https://yandexdataschool.com/">Yandex School of data analysis</a>.
 
 - My recent research deals with compression and acceleration of computer vision models using tensor methods. Also, I am very interested in audio-related problems, in particular, currently I participate in the project on speech synthesis and voice conversion.
 
@@ -173,3 +173,8 @@ does_not_need_title: true
         </div>
     </div>
 </div>
+
+<h1 style="font-size: 36px">A bit of ...</h1>
+
+- ...music! Check out <a href="https://drive.google.com/file/d/0B6sHBsbamJ8TTlNXdWJXbTNDNmEtUzZKaERXU2lwdkJTSm40/view?usp=sharing">piece of music</a> I've created some time ago. Your critical comments are very welcome!
+
