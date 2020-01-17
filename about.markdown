@@ -9,7 +9,7 @@ does_not_need_title: true
 
 - Currently, I am a Machine Learning researcher at <a href="https://faculty.skoltech.ru/people/juliagusak">Skoltech</a> at <a href="http://www.deeptensor.ml/team.html">Tensor networks and deep learning for applications in data mining</a> laboratory, where I work with <a href="https://scholar.google.com/citations?user=5kMqBQEAAAAJ&hl=en">Prof. Ivan Oseledets</a> and <a href="https://scholar.google.com/citations?user=wpZDx1cAAAAJ&hl=en">Prof. Andrzej Cichocki</a>.
 
-- I received my Ph.D. in Probability Theory and Statistics from <a href="https://www.msu.ru/en/">Lomonosov Moscow State University</a>, and in parallel, I completed a Master's-level programm in Computer Science and Data Analysis from the <a href="https://yandexdataschool.com/">Yandex School of data analysis</a>.
+- I received my <a href="http://mech.math.msu.su/~snark/files/diss/0169diss.pdf">Ph.D. in Probability Theory and Statistics</a> from <a href="http://new.math.msu.su/department/probab/os/index-e.html">Lomonosov Moscow State University</a>, and in parallel, I completed a Master's-level programm in Computer Science and Data Analysis from the <a href="https://yandexdataschool.com/">Yandex School of data analysis</a>.
 
 - My recent research deals with compression and acceleration of computer vision models (classification/object detection/segmentation),  as well as neural networks analysis using low-rank methods, such as tensor decompositions and active subspaces.  Also, I have some audio-related activity,  particularly, I participate in the project on speech synthesis and voice conversion. Some of my earlier projects were related to medical data processing (EEG, ECG)  and included human disease detection, artifact removal, and weariness detection.
 
@@ -46,7 +46,7 @@ does_not_need_title: true
     <div class="col-sm-7 vcenter" style="margin-right: -4px; text-align: justify;">
         <p class="title">Automated Multi-Stage Compression of Neural Networks</p>
         <p class="authors"> <b>J. Gusak, M. Kholiavchenko</b>, E. Ponomarev, L. Markeeva, A. Cichocki, I. Oseledets</p>
-        <p class="conf">ICCVW 2019</p>
+        <p class="conf">ICCV 2019 Workshop on Low-Power Computer Vision</p>
         <p class="description">
             We propose a new simple and efficient iterative approach for compression of deep neural networks, which alternates low-rank factorization with smart rank selection and fine-tuning. We demonstrate the efficiency of our method comparing to non-iterative ones. Our approach improves the compression rate while maintaining the accuracy for a variety of computer vision tasks.
         </p>
@@ -72,7 +72,6 @@ does_not_need_title: true
         </p>
         <div class="links">
             <a href="https://arxiv.org/pdf/1910.06995">Paper</a>
-            <a href="#">Presentation</a>
         </div>
     </div>
 </div>
