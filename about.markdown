@@ -11,9 +11,9 @@ does_not_need_title: true
 
 - I received my Ph.D. in Probability Theory and Statistics from <a href="https://www.msu.ru/en/">Lomonosov Moscow State University</a>, and in parallel, I completed a Master's-level programm in Computer Science and Data Analysis from the <a href="https://yandexdataschool.com/">Yandex School of data analysis</a>.
 
-- My recent research deals with compression and acceleration of computer vision models using tensor methods. Also, I am very interested in audio-related problems, in particular, currently I participate in the project on speech synthesis and voice conversion.
+- My recent research deals with compression and acceleration of computer vision models (classification/object detection/segmentation),  as well as neural networks analysis using low-rank methods, such as tensor decompositions and active subspaces.  Also, I have some audio-related activity,  particularly, currently, I participate in the project on speech synthesis and voice conversion. Some of my earlier projects were related to medical data processing (EEG, ECG)  and included human disease detection, artifact removal, and weariness detection.
 
-- Research interests: deep learning, computer vision, signal processing, speech technologies, unsupervised learning, transfer learning, tensor decompositions, interpretability of deep learning
+- Research interests: deep learning (DL), interpretability of DL, computer vision, speech technologies, semi-supervised/unsupervised learning, transfer learning, domain adaptation, tensor decompositions for DL.
 
 
 <br/>
