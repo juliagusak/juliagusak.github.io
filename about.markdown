@@ -7,13 +7,13 @@ does_not_need_title: true
 ---
 <h1 style="margin:0px; font-size: 36px">About</h1>
 
-- Currently, I am a Machine Learning researcher at <a href="https://faculty.skoltech.ru/people/juliagusak">Skoltech</a> at <a href="http://www.deeptensor.ml/team.html">Tensor networks and deep learning for applications in data mining</a> laboratory, where I work with <a href="https://scholar.google.com/citations?user=5kMqBQEAAAAJ&hl=en">Prof. Ivan Oseledets</a> and <a href="https://scholar.google.com/citations?user=wpZDx1cAAAAJ&hl=en">Prof. Andrzej Cichocki</a>.
+- Currently, I am a Machine Learning researcher at <a href="https://faculty.skoltech.ru/people/juliagusak">Skoltech</a> at <a href="http://www.deeptensor.ml/team.html">Tensor networks and deep learning for applications in data mining</a> laboratory (working with <a href="https://scholar.google.com/citations?user=5kMqBQEAAAAJ&hl=en">Prof. Ivan Oseledets</a> and <a href="https://scholar.google.com/citations?user=wpZDx1cAAAAJ&hl=en">Prof. Andrzej Cichocki</a>) and a research consultant at <a href="https://dasha.ai/en/">Dasha</a>.
 
 - I received my <a href="http://mech.math.msu.su/~snark/files/diss/0169diss.pdf">Ph.D. in Probability Theory and Statistics</a> from <a href="http://new.math.msu.su/department/probab/os/index-e.html">Lomonosov Moscow State University</a>, and in parallel, I completed a Master's-level programm in Computer Science and Data Analysis from the <a href="https://yandexdataschool.com/">Yandex School of data analysis</a>.
 
 - My recent research deals with compression and acceleration of computer vision models (classification/object detection/segmentation),  as well as neural networks analysis using low-rank methods, such as tensor decompositions and active subspaces.  Also, I have some audio-related activity,  particularly, I participate in the project on speech synthesis and voice conversion. Some of my earlier projects were related to medical data processing (EEG, ECG)  and included human disease detection, artifact removal, and weariness detection.
 
-- Research interests: deep learning (DL), interpretability of DL, computer vision, speech technologies, semi-supervised/unsupervised learning, transfer learning, domain adaptation, tensor decompositions for DL.
+- Research interests: deep learning (DL), interpretability of DL, computer vision, speech technologies, multi-task learning, semi-supervised/unsupervised learning, transfer learning, domain adaptation, tensor decompositions for DL.
 
 
 <br/>
