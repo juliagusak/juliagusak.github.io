@@ -53,7 +53,7 @@ disqus: juliagusak
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
 url: https://juliagusak.github.io
-enforce_ssl: juliagusak.github.io
+# enforce_ssl: juliagusak.github.io
 
 # The release of Jekyll Now that you're using
 version: 3.8.5
