@@ -97,7 +97,7 @@ does_not_need_title: true
 
 <div class="row publications">
     <div class="col-sm-5 vcenter marginbottom">
-        <img class="img-responsive pub-image" src="/assets/about/iam.pdf" alt=""/>
+        <img class="img-responsive pub-image" src="/assets/about/iam.png" alt=""/>
     </div>
     <div class="col-sm-7 vcenter" style="margin-right: -4px; text-align: justify;">
         <p class="title">Interpolation technique to speed up gradients propagation in neural ordinary differential equations</p>
