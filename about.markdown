@@ -103,7 +103,7 @@ does_not_need_title: true
         <p class="title">Interpolation technique to speed up gradients propagation in neural ordinary differential equations</p>
         <p class="authors"> T. Daulbaev, A. Katrutsa, L. Markeeva, J. Gusak, A. Cichocki, I. Oseledets</p>
         <p class="conf">arxiv 2020</p>
-        <p class="description"> We propose a simple interpolation-based method for the efficient approximation of gradients in neural ODE models. We compare it with reverse dynamic method (known in literature as ``adjoint method'') to train neural ODEs on classification, density estimation and inference approximation tasks. We also propose a theoretical justification of our approach using logarithmic norm formalism. As a result, our method allows  faster model training than reverse dynamic method on several standard benchmarks.
+        <p class="description"> We propose a simple interpolation-based method for the efficient approximation of gradients in neural ODE models. We compare it with reverse dynamic method (known in literature as ''adjoint method'') to train neural ODEs on classification, density estimation and inference approximation tasks. We also propose a theoretical justification of our approach using logarithmic norm formalism. As a result, our method allows  faster model training than reverse dynamic method on several standard benchmarks.
         </p>
         <div class="links">
             <a href="https://arxiv.org/abs/2003.05271">Paper</a>
