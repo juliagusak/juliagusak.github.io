@@ -61,6 +61,25 @@ does_not_need_title: true
 
 <div class="row publications">
     <div class="col-sm-5 vcenter marginbottom">
+        <img class="img-responsive pub-image" src="/assets/about/neural-ode-norm.png" alt=""/>
+    </div>
+    <div class="col-sm-7 vcenter" style="margin-right: -4px; text-align: justify;">
+        <p class="title">Towards Understanding Normalization in Neural ODEs</p>
+        <p class="authors"> <b>J. Gusak</b>, L. Markeeva, T. Daulbaev, A. Katrutsa, A. Cichocki, I. Oseledets</p>
+        <p class="conf">ICLR 2020 DeepDiffeq workshop</p>
+        <p class="description">
+            Normalization is an important and vastly investigated technique in deep learning. However, its role for Ordinary Differential Equation based networks (neural ODEs) is still poorly understood. This paper investigates how different normalization techniques affect the performance of neural ODEs. Particularly, we show that it is possible to achieve 93% accuracy in the CIFAR-10 classification task, and to the best of our knowledge, this is the highest reported accuracy among neural ODEs tested on this problem.
+        </p>
+        <div class="links">
+            <a href="https://openreview.net/forum?id=mllQ3QNNr9d">Paper</a>
+            <a href="https://drive.google.com/file/d/1rbpudtm01WfpYPJaew-OmTK1BaDwQE0p/view?usp=sharing">Presentation</a>
+            <a href="https://github.com/juliagusak/neural-ode-norm">Code</a>
+        </div>
+    </div>
+</div>
+
+<div class="row publications">
+    <div class="col-sm-5 vcenter marginbottom">
         <img class="img-responsive pub-image" src="/assets/about/ron.png" alt=""/>
     </div>
     <div class="col-sm-7 vcenter" style="margin-right: -4px; text-align: justify;">
@@ -72,6 +91,22 @@ does_not_need_title: true
         </p>
         <div class="links">
             <a href="https://arxiv.org/pdf/1910.06995">Paper</a>
+        </div>
+    </div>
+</div>
+
+<div class="row publications">
+    <div class="col-sm-5 vcenter marginbottom">
+        <img class="img-responsive pub-image" src="/assets/about/iam.png" alt=""/>
+    </div>
+    <div class="col-sm-7 vcenter" style="margin-right: -4px; text-align: justify;">
+        <p class="title">Interpolation technique to speed up gradients propagation in neural ordinary differential equations</p>
+        <p class="authors"> T. Daulbaev, A. Katrutsa, L. Markeeva, J. Gusak, A. Cichocki, I. Oseledets</p>
+        <p class="conf">arxiv 2020</p>
+        <p class="description"> We propose a simple interpolation-based method for the efficient approximation of gradients in neural ODE models. We compare it with reverse dynamic method (known in literature as ``adjoint method'') to train neural ODEs on classification, density estimation and inference approximation tasks. We also propose a theoretical justification of our approach using logarithmic norm formalism. As a result, our method allows  faster model training than reverse dynamic method on several standard benchmarks.
+        </p>
+        <div class="links">
+            <a href="https://arxiv.org/abs/2003.05271">Paper</a>
         </div>
     </div>
 </div>
