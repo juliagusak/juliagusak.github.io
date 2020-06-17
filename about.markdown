@@ -80,11 +80,29 @@ does_not_need_title: true
 
 <div class="row publications">
     <div class="col-sm-5 vcenter marginbottom">
+        <img class="img-responsive pub-image" src="/assets/about/asnet.png" alt=""/>
+    </div>
+    <div class="col-sm-7 vcenter" style="margin-right: -4px; text-align: justify;">
+        <p class="title">Active Subspace of Neural Networks: Structural Analysis and Universal Attacks</p>
+        <p class="authors"> C. Cui, K. Zhang, T. Daulbaev, J. Gusak, I. Oseledets, Z. Zhang</p>
+        <p class="conf">arxiv 2019</p>
+        <p class="description">
+            Active subspace is a model reduction method widely used in the uncertainty quantification community. Firstly, we employ the active subspace to measure the number of" active neurons" at each intermediate layer and reduce the number of neurons from several thousands to several dozens, yielding to a new compact network. Secondly, we propose analyzing the vulnerability of a neural network using active subspace and finding an additive universal adversarial attack vector that can misclassify a dataset with a high probability.
+        </p>
+        <div class="links">
+            <a href="https://arxiv.org/pdf/1910.13025.pdf">Paper</a>
+            <a href="https://github.com/chunfengc/ASNet">Code</a>
+        </div>
+    </div>
+</div>
+
+<div class="row publications">
+    <div class="col-sm-5 vcenter marginbottom">
         <img class="img-responsive pub-image" src="/assets/about/ron.png" alt=""/>
     </div>
     <div class="col-sm-7 vcenter" style="margin-right: -4px; text-align: justify;">
         <p class="title">Reduced-Order Modeling of Deep Neural Networks</p>
-        <p class="authors"><b>T. Daulbaev, J. Gusak,</b> E. Ponomarev, A. Cichocki, I. Oseledets</p>
+        <p class="authors"><b>J. Gusak, T. Daulbaev</b> E. Ponomarev, A. Cichocki, I. Oseledets</p>
         <p class="conf">arxiv 2019</p>
         <p class="description">
             We introduce a new method for speeding up the inference of deep neural networks. It is somewhat inspired by the reduced-order modeling techniques for dynamical systems. The cornerstone of the proposed method is the maximum volume algorithm. We demonstrate efficiency on VGG and ResNet architectures pre-trained on different datasets. We show that in many practical cases it is possible to replace convolutional layers with much smaller fully-connected layers with a relatively small drop in accuracy.
@@ -107,24 +125,6 @@ does_not_need_title: true
         </p>
         <div class="links">
             <a href="https://arxiv.org/abs/2003.05271">Paper</a>
-        </div>
-    </div>
-</div>
-
-<div class="row publications">
-    <div class="col-sm-5 vcenter marginbottom">
-        <img class="img-responsive pub-image" src="/assets/about/asnet.png" alt=""/>
-    </div>
-    <div class="col-sm-7 vcenter" style="margin-right: -4px; text-align: justify;">
-        <p class="title">Active Subspace of Neural Networks: Structural Analysis and Universal Attacks</p>
-        <p class="authors"> C. Cui, K. Zhang, T. Daulbaev, J. Gusak, I. Oseledets, Z. Zhang</p>
-        <p class="conf">arxiv 2019</p>
-        <p class="description">
-            Active subspace is a model reduction method widely used in the uncertainty quantification community. Firstly, we employ the active subspace to measure the number of" active neurons" at each intermediate layer and reduce the number of neurons from several thousands to several dozens, yielding to a new compact network. Secondly, we propose analyzing the vulnerability of a neural network using active subspace and finding an additive universal adversarial attack vector that can misclassify a dataset with a high probability.
-        </p>
-        <div class="links">
-            <a href="https://arxiv.org/pdf/1910.13025.pdf">Paper</a>
-            <a href="https://github.com/chunfengc/ASNet">Code</a>
         </div>
     </div>
 </div>
