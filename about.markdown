@@ -41,6 +41,23 @@ does_not_need_title: true
 <!-- <> -->
 <div class="row publications">
     <div class="col-sm-5 vcenter marginbottom">
+        <img class="img-responsive pub-image" src="/assets/about/cpd-epc.png" alt="" />
+    </div>
+    <div class="col-sm-7 vcenter" style="margin-right: -4px; text-align: justify;">
+        <p class="title">Stable Low-rank Tensor Decomposition for Compression of Convolutional Neural Network</p>
+        <p class="authors">A.H. Phan, K. Sobolev, K. Sozykin, D. Ermilov, J. Gusak, P. Tichavsky, V. Glukhov, I. Oseledets, A. Cichocki</p>
+        <p class="conf">ECCV 2020</p>
+        <p class="description">
+            Most state of the art deep neural networks are overparameterized and exhibit a high computational cost. A straightforward approach to this problem is to replace convolutional kernels with its low-rank tensor approximations, whereas the Canonical Polyadic tensor Decomposition is one of the most suited models. However, fitting the convolutional tensors by numerical optimization algorithms often encounters diverging components, i.e., extremely large rank-one tensors but canceling each other. Such degeneracy often causes the non-interpretable result and numerical instability for the neural network fine-tuning. This paper is the first study on degeneracy in the tensor decomposition of convolutional kernels. We present a novel method, which can stabilize the low-rank approximation of convolutional kernels and ensure efficient compression while preserving the high-quality performance of the neural networks. We evaluate our approach on popular CNN architectures for image classification and show that our method results in much lower accuracy degradation and provides consistent performance.
+        </p>
+        <div class="links">
+            <a href="https://arxiv.org/pdf/2008.05441.pdf">Paper</a>
+        </div>
+    </div>
+</div>
+
+<div class="row publications">
+    <div class="col-sm-5 vcenter marginbottom">
         <img class="img-responsive pub-image" src="/assets/about/musco.png" alt=""/>
     </div>
     <div class="col-sm-7 vcenter" style="margin-right: -4px; text-align: justify;">
@@ -85,7 +102,7 @@ does_not_need_title: true
     <div class="col-sm-7 vcenter" style="margin-right: -4px; text-align: justify;">
         <p class="title">Active Subspace of Neural Networks: Structural Analysis and Universal Attacks</p>
         <p class="authors"> C. Cui, K. Zhang, T. Daulbaev, J. Gusak, I. Oseledets, Z. Zhang</p>
-        <p class="conf">arxiv 2019</p>
+        <p class="conf">arxiv 2019 (accepted to SIAM Journal on Mathematics of Data Science, SIMODS)</p>
         <p class="description">
             Active subspace is a model reduction method widely used in the uncertainty quantification community. Firstly, we employ the active subspace to measure the number of" active neurons" at each intermediate layer and reduce the number of neurons from several thousands to several dozens, yielding to a new compact network. Secondly, we propose analyzing the vulnerability of a neural network using active subspace and finding an additive universal adversarial attack vector that can misclassify a dataset with a high probability.
         </p>
@@ -103,7 +120,7 @@ does_not_need_title: true
     <div class="col-sm-7 vcenter" style="margin-right: -4px; text-align: justify;">
         <p class="title">Reduced-Order Modeling of Deep Neural Networks</p>
         <p class="authors"><b>J. Gusak, T. Daulbaev</b> E. Ponomarev, A. Cichocki, I. Oseledets</p>
-        <p class="conf">arxiv 2019</p>
+        <p class="conf">arxiv 2019 (accepted to Computational Mathematics and Mathematical Physics Journal)</p>
         <p class="description">
             We introduce a new method for speeding up the inference of deep neural networks. It is somewhat inspired by the reduced-order modeling techniques for dynamical systems. The cornerstone of the proposed method is the maximum volume algorithm. We demonstrate efficiency on VGG and ResNet architectures pre-trained on different datasets. We show that in many practical cases it is possible to replace convolutional layers with much smaller fully-connected layers with a relatively small drop in accuracy.
         </p>
