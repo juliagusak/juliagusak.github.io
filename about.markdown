@@ -97,18 +97,16 @@ does_not_need_title: true
 
 <div class="row publications">
     <div class="col-sm-5 vcenter marginbottom">
-        <img class="img-responsive pub-image" src="/assets/about/asnet.png" alt=""/>
+        <img class="img-responsive pub-image" src="/assets/about/iam.png" alt=""/>
     </div>
     <div class="col-sm-7 vcenter" style="margin-right: -4px; text-align: justify;">
-        <p class="title">Active Subspace of Neural Networks: Structural Analysis and Universal Attacks</p>
-        <p class="authors"> C. Cui, K. Zhang, T. Daulbaev, J. Gusak, I. Oseledets, Z. Zhang</p>
-        <p class="conf">arxiv 2019 (accepted to SIAM Journal on Mathematics of Data Science, SIMODS)</p>
-        <p class="description">
-            Active subspace is a model reduction method widely used in the uncertainty quantification community. Firstly, we employ the active subspace to measure the number of" active neurons" at each intermediate layer and reduce the number of neurons from several thousands to several dozens, yielding to a new compact network. Secondly, we propose analyzing the vulnerability of a neural network using active subspace and finding an additive universal adversarial attack vector that can misclassify a dataset with a high probability.
+        <p class="title">Interpolation technique to speed up gradients propagation in neural ordinary differential equations</p>
+        <p class="authors"> T. Daulbaev, A. Katrutsa, L. Markeeva, J. Gusak, A. Cichocki, I. Oseledets</p>
+        <p class="conf">arxiv 2020</p>
+        <p class="description"> We propose a simple interpolation-based method for the efficient approximation of gradients in neural ODE models. We compare it with reverse dynamic method (known in literature as ''adjoint method'') to train neural ODEs on classification, density estimation and inference approximation tasks. We also propose a theoretical justification of our approach using logarithmic norm formalism. As a result, our method allows  faster model training than reverse dynamic method on several standard benchmarks.
         </p>
         <div class="links">
-            <a href="https://arxiv.org/pdf/1910.13025.pdf">Paper</a>
-            <a href="https://github.com/chunfengc/ASNet">Code</a>
+            <a href="https://arxiv.org/abs/2003.05271">Paper</a>
         </div>
     </div>
 </div>
@@ -132,19 +130,22 @@ does_not_need_title: true
 
 <div class="row publications">
     <div class="col-sm-5 vcenter marginbottom">
-        <img class="img-responsive pub-image" src="/assets/about/iam.png" alt=""/>
+        <img class="img-responsive pub-image" src="/assets/about/asnet.png" alt=""/>
     </div>
     <div class="col-sm-7 vcenter" style="margin-right: -4px; text-align: justify;">
-        <p class="title">Interpolation technique to speed up gradients propagation in neural ordinary differential equations</p>
-        <p class="authors"> T. Daulbaev, A. Katrutsa, L. Markeeva, J. Gusak, A. Cichocki, I. Oseledets</p>
-        <p class="conf">arxiv 2020</p>
-        <p class="description"> We propose a simple interpolation-based method for the efficient approximation of gradients in neural ODE models. We compare it with reverse dynamic method (known in literature as ''adjoint method'') to train neural ODEs on classification, density estimation and inference approximation tasks. We also propose a theoretical justification of our approach using logarithmic norm formalism. As a result, our method allows  faster model training than reverse dynamic method on several standard benchmarks.
+        <p class="title">Active Subspace of Neural Networks: Structural Analysis and Universal Attacks</p>
+        <p class="authors"> C. Cui, K. Zhang, T. Daulbaev, J. Gusak, I. Oseledets, Z. Zhang</p>
+        <p class="conf">arxiv 2019 (accepted to SIAM Journal on Mathematics of Data Science, SIMODS)</p>
+        <p class="description">
+            Active subspace is a model reduction method widely used in the uncertainty quantification community. Firstly, we employ the active subspace to measure the number of" active neurons" at each intermediate layer and reduce the number of neurons from several thousands to several dozens, yielding to a new compact network. Secondly, we propose analyzing the vulnerability of a neural network using active subspace and finding an additive universal adversarial attack vector that can misclassify a dataset with a high probability.
         </p>
         <div class="links">
-            <a href="https://arxiv.org/abs/2003.05271">Paper</a>
+            <a href="https://arxiv.org/pdf/1910.13025.pdf">Paper</a>
+            <a href="https://github.com/chunfengc/ASNet">Code</a>
         </div>
     </div>
 </div>
+
 
 <br/>
 <h1 style="font-size: 36px">Selected projects</h1>
