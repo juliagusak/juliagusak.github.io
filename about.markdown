@@ -70,7 +70,7 @@ does_not_need_title: true
         <div class="links">
             <a href="http://openaccess.thecvf.com/content_ICCVW_2019/papers/LPCV/Gusak_Automated_Multi-Stage_Compression_of_Neural_Networks_ICCVW_2019_paper.pdf">Paper</a>
             <a href="https://rebootingcomputing.ieee.org/images/files/pdf/iccv-2019_julia-gusak.pdf">Presentation</a>
-            <a href="https://github.com/musco-ai/musco-pytorch">Code-PyTorch</a>
+            <a href="https://github.com/musco-ai/musco-pytorch/tree/develop">Code-PyTorch</a>
             <a href="https://github.com/musco-ai/musco-tf">Code-TensorFlow</a>
         </div>
     </div>
