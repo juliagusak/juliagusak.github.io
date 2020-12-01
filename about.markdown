@@ -11,7 +11,7 @@ does_not_need_title: true
 
 - I received my <a href="http://mech.math.msu.su/~snark/files/diss/0169diss.pdf">Ph.D. in Probability Theory and Statistics</a> from <a href="http://new.math.msu.su/department/probab/os/index-e.html">Lomonosov Moscow State University</a>, and in parallel, I completed a Master's-level programm in Computer Science and Data Analysis from the <a href="https://yandexdataschool.com/">Yandex School of data analysis</a>.
 
-- My recent research deals with compression and acceleration of computer vision models (classification/object detection/segmentation),  as well as neural networks analysis using low-rank methods, such as tensor decompositions and active subspaces.  Also, I have some audio-related activity,  particularly, I participate in the project on speech synthesis and voice conversion. Some of my earlier projects were related to medical data processing (EEG, ECG)  and included human disease detection, artifact removal, and weariness detection.
+- My recent research deals with compression and acceleration of computer vision models (classification/object detection/segmentation), neural ordinary differential equations, as well as neural networks analysis using low-rank methods, such as tensor decompositions and active subspaces.  Also, I have some audio-related activity,  particularly, I participate in the project on speech synthesis and voice conversion. Some of my earlier projects were related to medical data processing (EEG, ECG)  and included human disease detection, artifact removal, and weariness detection.
 
 - Research interests: deep learning (DL), interpretability of DL, computer vision, speech technologies, multi-modal/multi-task learning, semi-supervised/unsupervised learning, transfer learning, domain adaptation, hyper networks, tensor decompositions for DL.
 
@@ -102,7 +102,7 @@ does_not_need_title: true
     <div class="col-sm-7 vcenter" style="margin-right: -4px; text-align: justify;">
         <p class="title">Interpolation technique to speed up gradients propagation in neural ordinary differential equations</p>
         <p class="authors"> T. Daulbaev, A. Katrutsa, L. Markeeva, J. Gusak, A. Cichocki, I. Oseledets</p>
-        <p class="conf">arxiv 2020</p>
+        <p class="conf">NeurIPS 2020</p>
         <p class="description"> We propose a simple interpolation-based method for the efficient approximation of gradients in neural ODE models. We compare it with reverse dynamic method (known in literature as ''adjoint method'') to train neural ODEs on classification, density estimation and inference approximation tasks. We also propose a theoretical justification of our approach using logarithmic norm formalism. As a result, our method allows  faster model training than reverse dynamic method on several standard benchmarks.
         </p>
         <div class="links">
