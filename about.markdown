@@ -19,7 +19,7 @@ does_not_need_title: true
 <br/>
 <div class="scaleIcons">
 <center>
-    <a class="hovernounderline" href="https://docs.google.com/document/d/1ykxd4l7kpEF0gWiyk-msFoLbVSlY-mBO2yond_nfWto/edit?usp=sharing">
+    <a class="hovernounderline" href="https://drive.google.com/file/d/1c_rME4F4KUaMSAJVkIJgJdcakJm8H1KM/view?usp=sharing">
         <i class="svg-icon cv"></i>
     </a>
     <a class="hovernounderline" href="https://github.com/{{ site.footer-links.github }}">
