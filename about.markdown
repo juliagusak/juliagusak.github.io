@@ -7,7 +7,7 @@ does_not_need_title: true
 ---
 <h1 style="margin:0px; font-size: 36px">About</h1>
 
-- Currently, I am a Machine Learning researcher at <a href="https://faculty.skoltech.ru/people/juliagusak">Skoltech</a> at <a href="http://www.deeptensor.ml/team.html">Tensor networks and deep learning for applications in data mining</a> laboratory, working with <a href="https://scholar.google.com/citations?user=5kMqBQEAAAAJ&hl=en">Prof. Ivan Oseledets</a> and <a href="https://scholar.google.com/citations?user=wpZDx1cAAAAJ&hl=en">Prof. Andrzej Cichocki</a>.
+- Currently, I am a Deep Learning researcher at  <a href="https://www.inria.fr/fr">INRIA</a> Bordeaux, previously I was working at Tensor networks and deep learning for applications in data mining laboratory with <a href="https://scholar.google.com/citations?user=5kMqBQEAAAAJ&hl=en">Prof. Ivan Oseledets</a> and <a href="https://scholar.google.com/citations?user=wpZDx1cAAAAJ&hl=en">Prof. Andrzej Cichocki</a>.
 
 - I received my <a href="http://mech.math.msu.su/~snark/files/diss/0169diss.pdf">Ph.D. in Probability Theory and Statistics</a> from <a href="http://new.math.msu.su/department/probab/os/index-e.html">Lomonosov Moscow State University</a>, and in parallel, I completed a Master's-level programm in Computer Science and Data Analysis from the <a href="https://yandexdataschool.com/">Yandex School of data analysis</a>.
 
