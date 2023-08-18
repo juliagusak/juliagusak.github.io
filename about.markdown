@@ -38,7 +38,82 @@ does_not_need_title: true
 </div>
 
 <h1 style="font-size: 36px">Selected publications</h1>
+
+<h2 style="font-size: 32px; text-align: center">Efficient Training of Neural Networks</h2>
+
+<div class="row publications">
+    <div class="col-sm-5 vcenter marginbottom">
+        <img class="img-responsive pub-image" src="/assets/about/survey.png" alt="" />
+    </div>
+    <div class="col-sm-7 vcenter" style="margin-right: -4px; text-align: justify;">
+        <p class="title">Survey on Efficient Training of Large Neural Networks</p>
+        <p class="authors">J. Gusak, D. Cherniuk, A. Shilova, A. Katrutsa, D. Bershatsky, X. Zhao, L. Eyraud-Dubois, O. Shliazhko, D. Dimitrov, I. Oseledets, O. Beaumont</p>
+        <p class="conf">IJCAI-ECAI 2022</p>
+        <p class="description">
+            Modern Deep Neural Networks (DNNs) require significant memory to store weight, activations, and other intermediate tensors during training. Hence, many models don’t fit one GPU device or can be trained using only a small per-GPU batch size. This survey provides a systematic overview of the ap- proaches that enable more efficient DNNs training. We analyze techniques that save memory and make good use of computation and communication re- sources on architectures with a single or several GPUs. We summarize the main categories of strate- gies and compare strategies within and across cate- gories. Along with approaches proposed in the lit- erature, we discuss available implementations.
+        </p>
+        <div class="links">
+            <a href="https://www.ijcai.org/proceedings/2022/0769.pdf">Paper</a>
+        </div>
+    </div>
+</div>
+
+<div class="row publications">
+    <div class="col-sm-5 vcenter marginbottom">
+        <img class="img-responsive pub-image" src="/assets/about/rockmate.png" alt="" />
+    </div>
+    <div class="col-sm-7 vcenter" style="margin-right: -4px; text-align: justify;">
+        <p class="title">Rockmate: an Efficient, Fast, Automatic and Generic Tool for Re-materialization in PyTorch</p>
+        <p class="authors">X. Zhao, T.L. Hellard, L. Eyraud-Dubois, J. Gusak, O. Beaumont</p>
+        <p class="conf">ICML 2023</p>
+        <p class="description">
+            We propose Rockmate to control the memory requirements when training PyTorch DNN models. Rockmate is an automatic tool that starts from the model code and generates an equivalent model, using a predefined amount of memory for activations, at the cost of a few re-computations. Rockmate automatically detects the structure of computational and data dependencies and rewrites the initial model as a sequence of complex blocks. We show that such a structure is widespread and can be found in many models in the literature (Transformer based models, ResNet, RegNets,...). This structure allows us to solve the problem in a fast and efficient way, using an adaptation of Checkmate (too slow on the whole model but general) at the level of individual blocks and an adaptation of Rotor (fast but limited to sequential models) at the level of the sequence itself. We show through experiments on many models that Rockmate is as fast as Rotor and as efficient as Checkmate, and that it allows in many cases to obtain a significantly lower memory consumption for activations (by a factor of 2 to 5) for a rather negligible overhead (of the order of 10% to 20%). Rockmate is open source and available at https://github.com/topal-team/rockmate.
+        </p>
+        <div class="links">
+            <a href="https://openreview.net/pdf?id=wLAMOoL0KD">Paper</a>
+        </div>
+    </div>
+</div>
+
+<div class="row publications">
+    <div class="col-sm-5 vcenter marginbottom">
+        <img class="img-responsive pub-image" src="/assets/about/fewbit.png" alt="" />
+    </div>
+    <div class="col-sm-7 vcenter" style="margin-right: -4px; text-align: justify;">
+        <p class="title">Few-bit backward: Quantized gradients of activation functions for memory footprint reduction</p>
+        <p class="authors">G. Novikov, D. Bershatsky, J. Gusak, A. Shonenkov, D. Dimitrov, I. Oseledets</p>
+        <p class="conf">ICML 2023</p>
+        <p class="description">
+            Memory footprint is one of the main limiting factors for large neural network training. In backpropagation, one needs to store the input to each operation in the computational graph. Every modern neural network model has quite a few pointwise nonlinearities in its architecture, and such operations induce additional memory costs that, as we show, can be significantly reduced by quantization of the gradients. We propose a systematic approach to compute optimal quantization of the retained gradients of the pointwise nonlinear functions with only a few bits per each element. We show that such approximation can be achieved by computing an optimal piecewise-constant approximation of the derivative of the activation function, which can be done by dynamic programming. The drop-in replacements are implemented for all popular nonlinearities and can be used in any existing pipeline. We confirm the memory reduction and the same convergence on several open benchmarks.
+        </p>
+        <div class="links">
+            <a href="https://proceedings.mlr.press/v202/novikov23a/novikov23a.pdf">Paper</a>
+        </div>
+    </div>
+</div>
+
+
+
+<h2 style="font-size: 32px; text-align: center">Inference Speed-up and Compression of Neural Networks</h2>
+
 <!-- <> -->
+<div class="row publications">
+    <div class="col-sm-5 vcenter marginbottom">
+        <img class="img-responsive pub-image" src="/assets/about/qcpd-epc.png" alt="" />
+    </div>
+    <div class="col-sm-7 vcenter" style="margin-right: -4px; text-align: justify;">
+        <p class="title">Quantization Aware Factorization for Deep Neural Network Compression</p>
+        <p class="authors">D. Cherniuk, S. Abukhovich, A.H. Phan, I. Oseledets, A. Cichocki, J. Gusak</p>
+        <p class="conf">arXiv 2023</p>
+        <p class="description">
+            Tensor decomposition of convolutional and fully-connected layers is an effective way to reduce parameters and FLOP in neural networks. Due to memory and power consumption limitations of mobile or embedded devices, the quantization step is usually necessary when pre-trained models are deployed. A conventional post-training quantization approach applied to networks with decomposed weights yields a drop in accuracy. This motivated us to develop an algorithm that finds tensor approximation directly with quantized factors and thus benefit from both compression techniques while keeping the prediction quality of the model. Namely, we propose to use Alternating Direction Method of Multipliers (ADMM) for Canonical Polyadic (CP) decomposition with factors whose elements lie on a specified quantization grid. We compress neural network weights with a devised algorithm and evaluate it's prediction quality and performance. We compare our approach to state-of-the-art post-training quantization methods and demonstrate competitive results and high flexibility in achiving a desirable quality-performance tradeoff.
+        </p>
+        <div class="links">
+            <a href="https://arxiv.org/pdf/2308.04595.pdf">Paper</a>
+        </div>
+    </div>
+</div>
+
 <div class="row publications">
     <div class="col-sm-5 vcenter marginbottom">
         <img class="img-responsive pub-image" src="/assets/about/cpd-epc.png" alt="" />
@@ -78,6 +153,43 @@ does_not_need_title: true
 
 <div class="row publications">
     <div class="col-sm-5 vcenter marginbottom">
+        <img class="img-responsive pub-image" src="/assets/about/ron.png" alt=""/>
+    </div>
+    <div class="col-sm-7 vcenter" style="margin-right: -4px; text-align: justify;">
+        <p class="title">Reduced-Order Modeling of Deep Neural Networks</p>
+        <p class="authors"><b>J. Gusak, T. Daulbaev</b> E. Ponomarev, A. Cichocki, I. Oseledets</p>
+        <p class="conf">Computational Mathematics and Mathematical Physics Journal, 2021</p>
+        <p class="description">
+            We introduce a new method for speeding up the inference of deep neural networks. It is somewhat inspired by the reduced-order modeling techniques for dynamical systems. The cornerstone of the proposed method is the maximum volume algorithm. We demonstrate efficiency on VGG and ResNet architectures pre-trained on different datasets. We show that in many practical cases it is possible to replace convolutional layers with much smaller fully-connected layers with a relatively small drop in accuracy.
+        </p>
+        <div class="links">
+            <a href="https://arxiv.org/pdf/1910.06995">Paper</a>
+        </div>
+    </div>
+</div>
+
+<div class="row publications">
+    <div class="col-sm-5 vcenter marginbottom">
+        <img class="img-responsive pub-image" src="/assets/about/asnet.png" alt=""/>
+    </div>
+    <div class="col-sm-7 vcenter" style="margin-right: -4px; text-align: justify;">
+        <p class="title">Active Subspace of Neural Networks: Structural Analysis and Universal Attacks</p>
+        <p class="authors"> C. Cui, K. Zhang, T. Daulbaev, J. Gusak, I. Oseledets, Z. Zhang</p>
+        <p class="conf"> SIAM Journal on Mathematics of Data Science (SIMODS), 2020</p>
+        <p class="description">
+            Active subspace is a model reduction method widely used in the uncertainty quantification community. Firstly, we employ the active subspace to measure the number of" active neurons" at each intermediate layer and reduce the number of neurons from several thousands to several dozens, yielding to a new compact network. Secondly, we propose analyzing the vulnerability of a neural network using active subspace and finding an additive universal adversarial attack vector that can misclassify a dataset with a high probability.
+        </p>
+        <div class="links">
+            <a href="https://arxiv.org/pdf/1910.13025.pdf">Paper</a>
+            <a href="https://github.com/chunfengc/ASNet">Code</a>
+        </div>
+    </div>
+</div>
+
+<h2 style="font-size: 32px; text-align: center">Neural Ordinary Differential Equations (Neural ODEs)</h2>
+
+<div class="row publications">
+    <div class="col-sm-5 vcenter marginbottom">
         <img class="img-responsive pub-image" src="/assets/about/neural-ode-norm.png" alt=""/>
     </div>
     <div class="col-sm-7 vcenter" style="margin-right: -4px; text-align: justify;">
@@ -111,40 +223,6 @@ does_not_need_title: true
     </div>
 </div>
 
-<div class="row publications">
-    <div class="col-sm-5 vcenter marginbottom">
-        <img class="img-responsive pub-image" src="/assets/about/ron.png" alt=""/>
-    </div>
-    <div class="col-sm-7 vcenter" style="margin-right: -4px; text-align: justify;">
-        <p class="title">Reduced-Order Modeling of Deep Neural Networks</p>
-        <p class="authors"><b>J. Gusak, T. Daulbaev</b> E. Ponomarev, A. Cichocki, I. Oseledets</p>
-        <p class="conf">arxiv 2019 (accepted to Computational Mathematics and Mathematical Physics Journal)</p>
-        <p class="description">
-            We introduce a new method for speeding up the inference of deep neural networks. It is somewhat inspired by the reduced-order modeling techniques for dynamical systems. The cornerstone of the proposed method is the maximum volume algorithm. We demonstrate efficiency on VGG and ResNet architectures pre-trained on different datasets. We show that in many practical cases it is possible to replace convolutional layers with much smaller fully-connected layers with a relatively small drop in accuracy.
-        </p>
-        <div class="links">
-            <a href="https://arxiv.org/pdf/1910.06995">Paper</a>
-        </div>
-    </div>
-</div>
-
-<div class="row publications">
-    <div class="col-sm-5 vcenter marginbottom">
-        <img class="img-responsive pub-image" src="/assets/about/asnet.png" alt=""/>
-    </div>
-    <div class="col-sm-7 vcenter" style="margin-right: -4px; text-align: justify;">
-        <p class="title">Active Subspace of Neural Networks: Structural Analysis and Universal Attacks</p>
-        <p class="authors"> C. Cui, K. Zhang, T. Daulbaev, J. Gusak, I. Oseledets, Z. Zhang</p>
-        <p class="conf">arxiv 2019 (accepted to SIAM Journal on Mathematics of Data Science, SIMODS)</p>
-        <p class="description">
-            Active subspace is a model reduction method widely used in the uncertainty quantification community. Firstly, we employ the active subspace to measure the number of" active neurons" at each intermediate layer and reduce the number of neurons from several thousands to several dozens, yielding to a new compact network. Secondly, we propose analyzing the vulnerability of a neural network using active subspace and finding an additive universal adversarial attack vector that can misclassify a dataset with a high probability.
-        </p>
-        <div class="links">
-            <a href="https://arxiv.org/pdf/1910.13025.pdf">Paper</a>
-            <a href="https://github.com/chunfengc/ASNet">Code</a>
-        </div>
-    </div>
-</div>
 
 
 <br/>
