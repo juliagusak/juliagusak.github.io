@@ -122,7 +122,7 @@ Neural ODEs, Robustness, Transfer Learning, Hyper Networks, Interpretability of 
     <div class="col-sm-7 vcenter" style="margin-right: -4px; text-align: justify;">
         <p class="title">Quantization Aware Factorization for Deep Neural Network Compression</p>
         <p class="authors">D. Cherniuk, S. Abukhovich, A.H. Phan, I. Oseledets, A. Cichocki, J. Gusak</p>
-        <p class="conf">arXiv 2023</p>
+        <p class="conf">Journal of Artificial Intelligence Research, 2024</p>
         <p class="description">
             Tensor decomposition of convolutional and fully-connected layers is an effective way to reduce parameters and FLOP in neural networks. Due to memory and power consumption limitations of mobile or embedded devices, the quantization step is usually necessary when pre-trained models are deployed. A conventional post-training quantization approach applied to networks with decomposed weights yields a drop in accuracy. This motivated us to develop an algorithm that finds tensor approximation directly with quantized factors and thus benefit from both compression techniques while keeping the prediction quality of the model. Namely, we propose to use Alternating Direction Method of Multipliers (ADMM) for Canonical Polyadic (CP) decomposition with factors whose elements lie on a specified quantization grid. We compress neural network weights with a devised algorithm and evaluate it's prediction quality and performance. We compare our approach to state-of-the-art post-training quantization methods and demonstrate competitive results and high flexibility in achiving a desirable quality-performance tradeoff.
         </p>
