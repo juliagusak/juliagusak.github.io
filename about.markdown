@@ -64,6 +64,23 @@ Neural ODEs, Robustness, Transfer Learning, Hyper Networks, Interpretability of 
         <img class="img-responsive pub-image" src="/assets/about/rockmate.png" alt="" />
     </div>
     <div class="col-sm-7 vcenter" style="margin-right: -4px; text-align: justify;">
+        <p class="title">HiRemate: Hierarchical Approach for Efficient Re-materialization of Neural Networks</p>
+        <p class="authors">J. Gusak, X. Zhao, T.L. Hellard, Z. Li, L. Eyraud-Dubois, O. Beaumont</p>
+        <p class="conf">ICML 2025</p>
+        <p class="description">
+            Training deep neural networks (DNNs) on memory-limited GPUs is challenging, as storing intermediate activations often exceeds available memory. Re-materialization, a technique that preserves exact computations, addresses this by selectively recomputing activations instead of storing them. However, existing methods either fail to scale, lack generality, or introduce excessive execution overhead. We introduce HiRemate a hierarchical re-materialization framework that recursively partitions large computation graphs, applies optimized solvers at multiple levels, and merges solutions into a global efficient training schedule. This enables scalability to significantly larger graphs than prior ILP-based methods while keeping runtime overhead low. Designed for single-GPU models and activation re-materialization, HiRemate extends the feasibility of training networks with thousands of graph nodes, surpassing prior methods in both efficiency and scalability. Experiments on various types of networks yield up to 50-70% memory reduction with only 10-15% overhead, closely matching optimal solutions while significantly reducing solver time.
+        </p>
+        <div class="links">
+            <a href="https://openreview.net/pdf?id=rnx11J4hsg">Paper</a>
+        </div>
+    </div>
+</div>
+
+<!-- <div class="row publications">
+    <div class="col-sm-5 vcenter marginbottom">
+        <img class="img-responsive pub-image" src="/assets/about/rockmate.png" alt="" />
+    </div>
+    <div class="col-sm-7 vcenter" style="margin-right: -4px; text-align: justify;">
         <p class="title">Rockmate: an Efficient, Fast, Automatic and Generic Tool for Re-materialization in PyTorch</p>
         <p class="authors">X. Zhao, T.L. Hellard, L. Eyraud-Dubois, J. Gusak, O. Beaumont</p>
         <p class="conf">ICML 2023</p>
@@ -74,7 +91,7 @@ Neural ODEs, Robustness, Transfer Learning, Hyper Networks, Interpretability of 
             <a href="https://openreview.net/pdf?id=wLAMOoL0KD">Paper</a>
         </div>
     </div>
-</div>
+</div> -->
 
 <div class="row publications">
     <div class="col-sm-5 vcenter marginbottom">
