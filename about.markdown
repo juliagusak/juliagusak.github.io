@@ -61,7 +61,7 @@ Neural ODEs, Robustness, Transfer Learning, Hyper Networks, Interpretability of 
 
 <div class="row publications">
     <div class="col-sm-5 vcenter marginbottom">
-        <img class="img-responsive pub-image" src="/assets/about/rockmate.png" alt="" />
+        <img class="img-responsive pub-image" src="/assets/about/hiremate.png" alt="" />
     </div>
     <div class="col-sm-7 vcenter" style="margin-right: -4px; text-align: justify;">
         <p class="title">HiRemate: Hierarchical Approach for Efficient Re-materialization of Neural Networks</p>
