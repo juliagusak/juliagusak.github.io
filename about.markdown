@@ -264,15 +264,15 @@ Neural ODEs, Robustness, Transfer Learning, Hyper Networks, Interpretability of 
 
 <div class="row projects">
     <div class="col col-sm-3 vcenter imgcol marginbottom">
-        <img class="img-responsive proj-img" src="/assets/about/dataloaders.jpg" alt=""/>
+        <img class="img-responsive proj-img" src="/assets/about/musco.png" alt=""/>
     </div>
     <div class="col col-sm-9 vcenter" style="margin-right: -4px; text-align: justify;">
-        <p class="title">Data loaders for speech and audio data sets</p>
+        <p class="title">MUSCO: MUlti-Stage COmpression of neural networks</p>
         <p class="description">
-        A Python library with PyTorch and TFRecords data loaders for convenient preprocessing of popular speech, music and environmental sound data sets.
+        A Python library for convenient neural network compression based on tensor approximations. It supports both automated and manual compression schemes.
         </p>
         <div class="links">
-            <a href="https://github.com/juliagusak/dataloaders">Code</a>
+            <a href="https://github.com/musco-ai/musco-pytorch/tree/develop">Code</a>
         </div>
     </div>
 </div>
@@ -288,6 +288,21 @@ Neural ODEs, Robustness, Transfer Learning, Hyper Networks, Interpretability of 
         </p>
         <div class="links">
             <a href="https://github.com/juliagusak/flopco-pytorch">Code</a>
+        </div>
+    </div>
+</div>
+
+<div class="row projects">
+    <div class="col col-sm-3 vcenter imgcol marginbottom">
+        <img class="img-responsive proj-img" src="/assets/about/dataloaders.jpg" alt=""/>
+    </div>
+    <div class="col col-sm-9 vcenter" style="margin-right: -4px; text-align: justify;">
+        <p class="title">Data loaders for speech and audio data sets</p>
+        <p class="description">
+        A Python library with PyTorch and TFRecords data loaders for convenient preprocessing of popular speech, music and environmental sound data sets.
+        </p>
+        <div class="links">
+            <a href="https://github.com/juliagusak/dataloaders">Code</a>
         </div>
     </div>
 </div>
