@@ -264,7 +264,7 @@ Neural ODEs, Robustness, Transfer Learning, Hyper Networks, Interpretability of 
 
 <div class="row projects">
     <div class="col col-sm-3 vcenter imgcol marginbottom">
-        <img class="img-responsive proj-img" src="/assets/about/musco.png" alt=""/>
+        <img class="img-responsive proj-img" src="/assets/about/musco2.png" alt=""/>
     </div>
     <div class="col col-sm-9 vcenter" style="margin-right: -4px; text-align: justify;">
         <p class="title">MUSCO: MUlti-Stage COmpression of neural networks</p>
