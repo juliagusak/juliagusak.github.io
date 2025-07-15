@@ -249,6 +249,21 @@ Neural ODEs, Robustness, Transfer Learning, Hyper Networks, Interpretability of 
 <!-- <div id="projects"> -->
 <div class="row projects">
     <div class="col col-sm-3 vcenter imgcol marginbottom">
+        <img class="img-responsive proj-img" src="/assets/about/metasolver.png" alt=""/>
+    </div>
+    <div class="col col-sm-9 vcenter" style="margin-right: -4px; text-align: justify;">
+        <p class="title">MetaSolver</p>
+        <p class="description">
+        A Python library that supports neural ODEs with MetaODE blocks: propagation through them is performed using sampling or ensembling of ODE solvers rather than a pre-defined one.
+        </p>
+        <div class="links">
+            <a href="https://github.com/juliagusak/neural-ode-metasolver">Code</a>
+        </div>
+    </div>
+</div>
+
+<div class="row projects">
+    <div class="col col-sm-3 vcenter imgcol marginbottom">
         <img class="img-responsive proj-img" src="/assets/about/dataloaders.jpg" alt=""/>
     </div>
     <div class="col col-sm-9 vcenter" style="margin-right: -4px; text-align: justify;">
